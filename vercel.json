@@ -9,11 +9,5 @@
       "src": "build/fonts/**",
       "use": "@vercel/static"
     }
-  ],
-  "rewrites": [
-    {
-      "source": "/build/fonts/:file*",
-      "destination": "/fonts/:file*"
-    }
   ]
 }
