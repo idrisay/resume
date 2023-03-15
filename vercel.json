@@ -12,7 +12,7 @@
     ],
     "routes": [
       {
-        "src": "build/fonts/(.*)",
+        "src": "build/fonts/**",
         "dest": "fonts/$1"
       }
     ]
