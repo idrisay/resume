@@ -6,7 +6,7 @@
         "use": "@vercel/static"
       },
       {
-        "src": "build/fonts/**",
+        "src": "fonts/**",
         "use": "@vercel/static"
       }
     ]
