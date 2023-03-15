@@ -4,6 +4,16 @@
       {
         "src": "build/**",
         "use": "@vercel/static"
+      },
+      {
+        "src": "build/fonts/**",
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/fonts/(.*)",
+        "dest": "/build/fonts/$1"
       }
     ]
   }
