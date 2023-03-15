@@ -4,6 +4,10 @@
       {
         "src": "build/**",
         "use": "@vercel/static"
+      },
+      {
+        "src": "build/fonts/**",
+        "use": "@vercel/static"
       }
     ]
   }
